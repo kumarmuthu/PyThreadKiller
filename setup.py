@@ -37,12 +37,17 @@ if os.path.exists(requirements_path):
 
 setup(
     name='PyThreadKiller',
-    version='3.0.2',
+    version='3.0.4',
     description='A utility to manage and kill threads in Python applications',
     long_description=long_description,
     long_description_content_type='text/markdown',
     author='Muthukumar Subramanian',
-    url="https://github.com/kumarmuthu/PyThreadKiller/PyThreadKiller",
+    url="https://github.com/kumarmuthu/PyThreadKiller",
+    project_urls={
+        "Homepage": "https://github.com/kumarmuthu/PyThreadKiller",
+        "Source": "https://github.com/kumarmuthu/PyThreadKiller",
+        "Tracker": "https://github.com/kumarmuthu/PyThreadKiller/issues"
+    },
     author_email='kumarmuthuece5@gmail.com',
     install_requires=requirements_file_list,
     packages=find_packages('.'),
