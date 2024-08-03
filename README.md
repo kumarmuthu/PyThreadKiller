@@ -33,6 +33,9 @@ PyThreadKiller/
     ├── CHANGELOG.md
     ├── README.md
     ├── requirements.txt
+    ├── .github/
+    │   └── workflows/
+    │       └── python-app.yml
     └── setup.py
 ```
 
