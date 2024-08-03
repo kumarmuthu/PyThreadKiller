@@ -1,15 +1,15 @@
 # PyThreadKiller
 A utility to manage and kill threads in Python applications.
 * ***
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/kumarmuthu)
-![GitHub License](https://img.shields.io/github/license/kumarmuthu/kumarmuthu?style=for-the-badge)
-![GitHub Forks](https://img.shields.io/github/forks/kumarmuthu/kumarmuthu?style=for-the-badge)
-![GitHub Stars](https://img.shields.io/github/stars/kumarmuthu/kumarmuthu?style=for-the-badge)
-![GitHub Contributors](https://img.shields.io/github/contributors/kumarmuthu/kumarmuthu?style=for-the-badge)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/kumarmuthu/PyThreadKiller)
+![GitHub License](https://img.shields.io/github/license/kumarmuthu/PyThreadKiller?style=for-the-badge)
+![GitHub Forks](https://img.shields.io/github/forks/kumarmuthu/PyThreadKiller?style=for-the-badge)
+![GitHub Stars](https://img.shields.io/github/stars/kumarmuthu/PyThreadKiller?style=for-the-badge)
+![GitHub Contributors](https://img.shields.io/github/contributors/kumarmuthu/PyThreadKiller?style=for-the-badge)
 
 
-[![Build Status](https://travis-ci.org/kumarmuthu/PyThreadKiller.svg?branch=master)](https://travis-ci.org/kumarmuthu/PyThreadKiller)
-[![Coverage Status](https://coveralls.io/repos/github/kumarmuthu/PrivateLogic/tree/main/PythonLogic/PyThreadKiller/badge.svg?branch=master)](https://coveralls.io/github/kumarmuthu/PrivateLogic/tree/main/PythonLogic/PyThreadKiller?branch=master)
+[![Build Status](https://github.com/kumarmuthu/PyThreadKiller/actions/workflows/python-app.yml/badge.svg)](https://github.com/kumarmuthu/PyThreadKiller/actions/workflows/python-app.yml)
+[![codecov](https://codecov.io/github/kumarmuthu/PyThreadKiller/graph/badge.svg?token=FOKWM0LOX5)](https://codecov.io/github/kumarmuthu/PyThreadKiller)
 [![PyPI Version](https://img.shields.io/pypi/v/PyThreadKiller?label=PyPI%20Version&color=brightgreen)](https://pypi.org/project/PyThreadKiller/)
 [![Test PyPI Version](https://img.shields.io/badge/dynamic/json?color=blue&label=Test%20PyPI&query=info.version&url=https://test.pypi.org/pypi/PyThreadKiller/json&cacheSeconds=0)](https://test.pypi.org/project/PyThreadKiller/)
 
