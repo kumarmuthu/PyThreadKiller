@@ -32,16 +32,23 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+        pip install coverage
+
+    - name: Run the test script
+      run: |
+        python tests/run_test.py
 
     - name: Run tests with coverage
       run: |
-        pip install pytest pytest-cov
-        pytest -v tests/TestPyThreadKiller.py --cov=PyThreadKiller --cov-report=xml
+        coverage run -m unittest discover -s tests
+        coverage report
+        coverage xml -o coverage.xml
 
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v4.0.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        files: coverage.xml
+        files: ./coverage.xml
         flags: unittests
         name: codecov-umbrella
+
