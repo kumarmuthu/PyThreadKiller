@@ -30,6 +30,7 @@ PyThreadKiller/
     │   ├── main.py
     ├── tests/
     │   ├── TestPyThreadKiller.py
+    │   ├── UnittestPyThreadKiller.py
     ├── CHANGELOG.md
     ├── README.md
     ├── requirements.txt
@@ -77,6 +78,8 @@ print(f"Return value after killing the thread: {result}")
 # Thread killed successfully
 # Return value after killing the thread: None
 ```
+
+This file: `tests/UnittestPyThreadKiller.py` is integral to our `CI/CD` pipeline for automated testing.
 
 ### License:
 * This project is licensed under the MIT License - see the LICENSE file for details.
