@@ -6,3 +6,7 @@
 ## [3.0.4] - 2024-07-20
 ### Fix
 * Test file for `PyThreadKiller` to test the package itself.
+
+## [3.0.6] - 2024-08-04
+### Documentation and `CI/CD`
+* Documentation update and `CI/CD` pipeline for automated testing
