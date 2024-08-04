@@ -37,7 +37,7 @@ if os.path.exists(requirements_path):
 
 setup(
     name='PyThreadKiller',
-    version='3.0.5',
+    version='3.0.6',
     description='A utility to manage and kill threads in Python applications',
     long_description=long_description,
     long_description_content_type='text/markdown',
