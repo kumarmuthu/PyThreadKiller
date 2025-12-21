@@ -1,0 +1,15 @@
+# Include important metadata
+include README.md
+include LICENSE
+include CHANGELOG.md
+
+# Include package source
+recursive-include PyThreadKiller *.py
+
+# Exclude tests from distribution
+prune tests
+
+# Exclude build artifacts
+prune build
+prune dist
+prune *.egg-info
